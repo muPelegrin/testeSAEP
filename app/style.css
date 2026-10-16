@@ -1,0 +1,96 @@
+/* CSS Simples para organizacao e visualizacao */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color: #333;
+}
+
+/* Links de navegacao */
+.nav-links {
+    margin: 15px 0;
+}
+
+.nav-links a {
+    margin-right: 15px;
+}
+
+/* Separadores e espacamentos */
+hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+/* Formularios */
+.form-group {
+    margin-bottom: 12px;
+}
+
+label {
+    display: block;
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+select,
+textarea {
+    padding: 6px;
+    width: 350px;
+    max-width: 100%;
+    border: 1px solid #ccc;
+}
+
+button,
+input[type="submit"] {
+    padding: 6px 14px;
+    cursor: pointer;
+}
+
+.btn-secondary {
+    margin-left: 10px;
+}
+
+/* Tabelas */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 15px 0;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Avisos e alertas */
+.mensagem {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+.alerta-minimo {
+    color: red;
+    font-weight: bold;
+}
+
+.box-info {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    margin-top: 15px;
+}
